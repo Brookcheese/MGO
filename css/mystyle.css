@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+h2,h3{
+    margin:0;
+}
+
+body{
+    background-color:#36ba;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 800px;
+    margin:0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+header{
+    padding: 50px;
+    overflow: hidden;   
+    /*position: sticky;
+    top:0px;*/
+
+}
+
+.big-image{
+    height: 350px;
+    width:790px;
+    margin:0 auto;
+    /* background:url(../image/ourstoryWTM.jpeg) center no-repeat; */
+    border-radius: 15px;
+      background-image: url(../image/ourstoryWTM.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#logo > h2{
+    float: left;
+    font-family:cursive;
+    font-size: 2em;
+    
+}
+
+
+nav{
+    float: right;
+}
+
+
+nav a{
+    padding-left: 10px;
+}
+
+
+#mgo{
+    margin: 10px 150px 0;
+}
+
+main{
+    padding: 50px;
+    overflow: hidden;
+}
+
+section{
+    float: left;
+    width: 70%;
+}
+
+article{
+    padding: 30px 15px;
+    text-align: justify;
+    border-bottom: 1px solid #cccccc;
+}
+
+/*usar un pseudo-selector para eliminar el border del último article*/
+
+article:last-child{
+    
+    border-bottom: 0px;
+}
+
+aside{
+    float: right;
+    width: 30%;
+    background-color: #e2cb9e;
+    padding: 10px;
+    margin-right: -40px;
+    
+}
+
+aside h3{
+    background-color: #ff5353;
+    color: white;
+    padding: 10px;
+}
+aside a{
+    color: black;
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
